@@ -7,7 +7,7 @@ In this phase, I'll explore Python's core data structures, collections, error ha
 ## 📚 Learning Roadmap
 
 ### 1. Data Structures
-- [ ] 01. Lists
+- [x] 01. Lists
 - [ ] 02. List Methods & Operations
 - [ ] 03. Tuples
 - [ ] 04. Sets
