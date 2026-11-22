@@ -17,9 +17,9 @@
 # - Lists are mutable (can be modified).
 # - Lists allow duplicate and mixed data types.
 
-# =========================================
+# ========================================
 # EXERCISES
-# =========================================
+# ========================================
 
 # Exercise 1 — Create a list
 
