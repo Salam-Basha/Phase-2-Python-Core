@@ -1,6 +1,6 @@
-# ======================================
+# =========================================
 # Lesson 02: List Methods & Operations
-# ======================================
+# =========================================
 
 # append(x)          ->  Add one element at the end
 # insert(i, x)       ->  Add element at a specific index
@@ -149,5 +149,6 @@ print("Copy:", new_list)
 # Output:
 # Original: [10, 20, 30]
 # Copy: [10, 20, 30, 40]
+
 
 
