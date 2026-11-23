@@ -1,60 +1,84 @@
-# ==============================================
-# Lesson 02 — List Methods & Operations
-# ==============================================
+# ======================================
+# Lesson 02: List Methods & Operations
+# ======================================
 
+# append(x)          ->  Add one element at the end
+# insert(i, x)       ->  Add element at a specific index
+# extend(x)          ->  Add multiple elements
+# remove(x)          ->  Remove by value
+# pop(i)             ->  Remove by index (last element if no index)
+# clear()            ->  Remove all elements
+# sort()             ->  Sort ascending
+# sort(reverse=True) -> Sort descending
+# reverse()          ->  Reverse the list
+# index(x)           ->  Find the index of an element
+# count(x)           ->  Count occurrences
+# copy()             ->  Create a shallow copy
+# len(list)          ->  Count elements
 
-# append(x)	     Add one element at the end
-# insert(i, x)	 Add at a specific index
-# extend(list)	 Add multiple elements
-# remove(x)	     Remove by value
-# pop(i)	     Remove by index
-# clear()	     Remove everything
-# sort()	     Sort elements
-# reverse()	     Reverse current order
-# index(x)	     Find element position
-# count(x)	     Count occurrences
-# copy()	     Create a shallow copy
+# ==============================
+# EXERCISES
+# ==============================
 
-
-# Exercise 1 — Append and Insert
+# Exercise 1: append() and insert()
 
 numbers = [10, 20, 30]
 numbers.append(40)
-numbers.insert(1,15)
+numbers.insert(1, 15)
 print(numbers)
 
-# Exercise 2 — Extend
+# Output: [10, 15, 20, 30, 40]
+
+
+# Exercise 2: extend()
 
 fruits = ["Apple", "Banana"]
-fruits.extend(["mango","orange"])
-
+fruits.extend(["Mango", "Orange"])
 print(fruits)
 
-# Exercise 3 — Remove
+# Output: ['Apple', 'Banana', 'Mango', 'Orange']
+
+
+# Exercise 3: remove() and pop()
 
 colors = ["Red", "Blue", "Green", "Yellow"]
 colors.remove("Blue")
-colors.pop(2)
-
+colors.pop()
 print(colors)
 
-# Exercise 4 — Sorting
+# Output: ['Red', 'Green']
+
+
+# Exercise 4: sort()
 
 numbers = [45, 12, 89, 23, 5]
+
 numbers.sort()
 print(numbers)
 
 numbers.sort(reverse=True)
 print(numbers)
 
-# Exercise 5 — Count and Index
+# Output:
+# [5, 12, 23, 45, 89]
+# [89, 45, 23, 12, 5]
+
+
+# Exercise 5: count() and index()
 
 numbers = [10, 20, 10, 30, 10, 40]
 
 print(numbers.count(10))
 print(numbers.index(30))
 
-# Challenge 🎯 — Shopping List Manager
+# Output:
+# 3
+# 3
+
+
+# ==============================
+# CHALLENGE: SHOPPING LIST
+# ==============================
 
 #Add "Rice" using append().
 #Insert "Butter" at index 1.
@@ -82,4 +106,48 @@ s.sort()
 print(s)
 
 print(len(s))
+
+# Output:
+# ['Milk', 'Bread', 'Eggs', 'Rice']
+# ['Milk', 'Butter', 'Bread', 'Eggs', 'Rice']
+# ['Milk', 'Butter', 'Bread', 'Rice']
+# ['Milk', 'Butter', 'Bread', 'Rice', 'Apple', 'Mangoes']
+# ['Apple', 'Bread', 'Butter', 'Mangoes', 'Milk', 'Rice']
+# 6
+
+
+# ==============================
+# COMMON MISTAKES
+# ==============================
+
+# append([1, 2]) adds one nested list.
+# extend([1, 2]) adds two separate elements.
+
+# remove("Apple") removes by value.
+# pop(0) removes by index.
+
+# sort() changes the original list.
+# reverse() changes the original list.
+# Both return None.
+
+# index() raises ValueError if the element is missing.
+# pop() raises IndexError if the index is invalid.
+
+
+# ==============================
+# EXTRA EXAMPLE: copy()
+# ==============================
+
+original = [10, 20, 30]
+new_list = original.copy()
+
+new_list.append(40)
+
+print("Original:", original)
+print("Copy:", new_list)
+
+# Output:
+# Original: [10, 20, 30]
+# Copy: [10, 20, 30, 40]
+
 
