@@ -16,9 +16,9 @@
 # copy()             ->  Create a shallow copy
 # len(list)          ->  Count elements
 
-# ==============================
+# =============================
 # EXERCISES
-# ==============================
+# =============================
 
 # Exercise 1: append() and insert()
 
