@@ -134,9 +134,9 @@ print(len(s))
 # pop() raises IndexError if the index is invalid.
 
 
-# ==============================
+# =============================
 # EXTRA EXAMPLE: copy()
-# ==============================
+# =============================
 
 original = [10, 20, 30]
 new_list = original.copy()
