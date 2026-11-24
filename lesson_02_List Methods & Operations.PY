@@ -1,6 +1,6 @@
-# =========================================
+# ========================================
 # Lesson 02: List Methods & Operations
-# =========================================
+# ========================================
 
 # append(x)          ->  Add one element at the end
 # insert(i, x)       ->  Add element at a specific index
