@@ -2,6 +2,19 @@
 # Lesson 03: Tuples
 # ===================================
 
+#Create       -> a = (10, 20, 30)
+#Single item  -> a = (10,)
+#Indexing     -> a[0], a[-1]
+#Slicing      -> a[0:2], a[::-1]
+#Length       -> len(a)
+#Membership   -> 10 in a
+#Count        -> a.count(10)
+#Index        -> a.index(20)
+#Concatenate  -> a + (40, 50)
+#Repeat       -> a * 2
+#Unpacking    -> x, y, z = a
+
+
 #Exercise 1: Create a tuple
 #Create a tuple containing five programming languages and print it.
 
@@ -53,4 +66,9 @@ print(len(student))
 
 print("CSE" in student)
 
+name, roll_no, branch, college = student
 
+print(name)
+print(roll_no)
+print(branch)
+print(college)
