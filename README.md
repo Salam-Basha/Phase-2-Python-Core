@@ -1,6 +1,6 @@
 # 🐍 Python Core — Phase 2
 
-Welcome to Phase 2 of my Python learning journey!
+Welcome to Phase 2 of my Python learning journey
 
 In this phase, I'll explore Python's core data structures, collections, error handling, file handling and modules through practical examples and projects.
 
