@@ -10,7 +10,7 @@ In this phase, I'll explore Python's core data structures, collections, error ha
 - [x] 01. Lists
 - [x] 02. List Methods & Operations
 - [x] 03. Tuples
-- [x] 04. Sets
+- [ ] 04. Sets
 - [ ] 05. Dictionaries
 - [ ] 06. Nested Data Structures
 
