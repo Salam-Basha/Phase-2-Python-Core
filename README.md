@@ -29,7 +29,7 @@ In this phase, I'll explore Python's core data structures, collections, error ha
 - [ ] 14. pip & Virtual Environments
 
 ### 5. Projects
-- [x] 15. Mini Projects 🎯
+- [ ] 15. Mini Projects 🎯
 
 ## 🎯 Goals
 - Understand Python data structures deeply.
